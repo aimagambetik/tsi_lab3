@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 function Header() {
   return (
-    <header className="bg-red-500 h-40 rounded-xl hover:bg-green-500 duration-300">
+    <header className="bg-red-500 h-40 hover:bg-green-500 duration-300">
       <div className="container">
         <div className="header-content">
        
