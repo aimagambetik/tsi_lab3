@@ -5,6 +5,7 @@ import Header from './components/Header.tsx';
 import './App.css'; 
 import Footer from './components/Footer.tsx';
 import Halal from './pages/Halal.tsx';
+import { ProductsPage } from './pages/products.tsx';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/halal" element={<Halal />} />
+            <Route path="/products" element={<ProductsPage />} />
             
           </Routes>
         </main> 
